@@ -1,0 +1,242 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <link href=\"style.css\" rel=\"stylesheet\">\r\n    <!-- Google Fonts - Kode Mono -->\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap\" rel=\"stylesheet\">\r\n    <!-- Google Fonts - Monofett static -->\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Monofett&display=swap\" rel=\"stylesheet\">\r\n    <!--Bootstrap-->\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">\r\n    <!--Font Awesome -->\r\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">\r\n    <title>Club Programación - UNViMe</title>\r\n</head>\r\n<body>\r\n<header>\r\n<nav class=\"py-2 \">\r\n    <div class=\"container d-flex flex-wrap\">\r\n        <a href=\"index.html\" class=\"d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none\">\r\n            <img src=\"CPU%20H.gif\" width=\"190\"  alt=\"CPU\">\r\n        </a>\r\n        <ul class=\"nav me-auto\">\r\n            <li class=\"nav-item\"><a href=\"#\" class=\"nav-link px-3 \">¿Quiénes somos?</a></li>\r\n            <li class=\"nav-item\"><a href=\"#\" class=\"nav-link px-3 \">Formulario</a></li>\r\n            <li class=\"nav-item\"><a href=\"#\" class=\"nav-link px-3 \">FAQs</a></li>\r\n            <li class=\"nav-item\"><a href=\"#\" class=\"nav-link px-2 \">Contacto</a></li>\r\n            <li class=\"nav-item\"><a href=\"cheats.html\" class=\"nav-link px-2 \">Cheats</a></li>\r\n        </ul>\r\n    </div>\r\n</nav>\r\n</header>\r\n<div class=\"container-div\">\r\n    <div class=\"main\">\r\n        <aside class=\"left\">\r\n            <h4>Lista de cursos</h4>\r\n            <div class=\"list\"></div>\r\n        </aside>\r\n        <main>\r\n            <h1>¿Quiénes somos?</h1>\r\n            <p>\r\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aut consequuntur enim et fugiat illo incidunt, itaque laboriosam maiores perspiciatis quasi quos repudiandae sequi similique, soluta veritatis voluptatibus voluptatum.\r\n            </p>\r\n            <h1>Formulario</h1>\r\n            <form style=\"font-weight: bold; font-size: x-large; background-size: auto\" >\r\n                <div class=\"form-group\" style=\"margin: 0 auto;\">\r\n                    <label for=\"name\">Nombre </label>\r\n                    <input required type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Ignacio López\">\r\n\r\n                    <label for=\"email\">Correo electrónico</label>\r\n                    <input required type=\"email\" class=\"form-control\" id=\"email\" aria-describedby=\"emailHelp\" placeholder=\"email@duck.com\">\r\n\r\n                    <label for=\"telefono\">Teléfono </label>\r\n                    <input required type=\"number\" class=\"form-control\" id=\"telefono\" placeholder=\"2664-xxxxxx\">\r\n\r\n                    <label for=\"mensaje\">Deje aquí su mensaje</label><br>\r\n                    <textarea required name=\"mensaje\" id=\"mensaje\" placeholder=\"Hola Mundo!\" style=\"width: 100%;\"></textarea>\r\n                    <button type=\"submit\" class=\"btn btn-outline-danger\">Enviar</button>\r\n                </div>\r\n            </form>\r\n            <h1>FAQ</h1>\r\n            <section>\r\n                <div class=\"row\"></div>\r\n            </section>\r\n        </main>\r\n        <aside class=\"right\">\r\n            <h4>Lista de Lenguajes</h4>\r\n            <h5>Front end</h5>\r\n            <div class=\"langList\"></div>\r\n            <h5>Back end</h5>\r\n            <div class=\"langListB\"></div>\r\n        </aside>\r\n    </div>\r\n</div>\r\n<footer class=\"d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top\">\r\n    <div class=\"col-md-4 d-flex align-items-center\">\r\n        <a href=\"/\" class=\"mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1\">\r\n            <svg class=\"bi\" width=\"30\" height=\"24\"><use xlink:href=\"#bootstrap\"></use></svg>\r\n        </a>\r\n        <span class=\"mb-3 mb-md-0 text-muted\">© 2024 Club de Programadores</span>\r\n    </div>\r\n    <ul class=\"nav col-md-4 justify-content-end list-unstyled d-flex\" style=\"margin-right: 3em\">\r\n        <li class=\"ms-3\"><a class=\"text-muted\" href=\"#\"><i class=\"fa-brands fa-whatsapp\" style=\"font-size: 2em;\"></i></a></li>\r\n        <li class=\"ms-3\"><a class=\"text-muted\" href=\"#\"><i class=\"fa-brands fa-discord\" style=\"font-size: 2em;\"></i></a></li>\r\n        <li class=\"ms-3\"><a class=\"text-muted\" href=\"#\"><i class=\"fa-brands fa-github\" style=\"font-size: 2em;\"></i></a></li>\r\n    </ul>\r\n</footer>\r\n\r\n</body>\r\n<script src=\"index.js\"></script>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision a8ff6c73a7f7e16c94035698180a4ce77b83d548)
++++ b/index.html	(date 1721611613398)
+@@ -5,7 +5,7 @@
+     <meta name="viewport"
+           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+-    <link href="style.css" rel="stylesheet">
++    <link href="css/style.css" rel="stylesheet">
+     <!-- Google Fonts - Kode Mono -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+@@ -25,7 +25,7 @@
+ <nav class="py-2 ">
+     <div class="container d-flex flex-wrap">
+         <a href="index.html" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+-            <img src="CPU%20H.gif" width="190"  alt="CPU">
++            <img src="./img/CPU%20H.gif" width="190"  alt="CPU">
+         </a>
+         <ul class="nav me-auto">
+             <li class="nav-item"><a href="#" class="nav-link px-3 ">¿Quiénes somos?</a></li>
+@@ -94,5 +94,5 @@
+ </footer>
+ 
+ </body>
+-<script src="index.js"></script>
++<script src="js/index.js"></script>
+ </html>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1721611634639)
++++ b/.idea/workspace.xml	(date 1721611634639)
+@@ -0,0 +1,147 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="39a2ac15-ce3b-4a09-8f68-52b65a9055e2" name="Changes" comment="Page with BootStrap">
++      <change beforePath="$PROJECT_DIR$/CPU H.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/CPU H.gif" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CPU.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/CPU.gif" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/bg code.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg code.gif" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cheats.html" beforeDir="false" afterPath="$PROJECT_DIR$/cheats.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/cheats.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/cheats.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="HTML File" />
++        <option value="JavaScript File" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="ROOT_SYNC" value="DONT_SYNC" />
++    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "Flor125"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/Flor125/page.git",
++    "accountId": "41dec6b7-31a1-410c-bf00-54e3699decfe"
++  }
++}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 7
++}</component>
++  <component name="ProjectId" id="2jOqFFErjtsROLmuXNLsRx92IUV" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "DefaultHtmlFileTemplate": "HTML File",
++    "JavaScript Debug.cheats.html.executor": "Run",
++    "JavaScript Debug.index.html.executor": "Debug",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "test1",
++    "ignore.virus.scanning.warn.message": "true",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/flopi/IdeaProjects/ClubProgrammer",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "preferences.pluginManager",
++    "vue.rearranger.settings.migration": "true"
++  }
++}]]></component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\flopi\IdeaProjects\ClubProgrammer\img" />
++      <recent name="C:\Users\flopi\IdeaProjects\ClubProgrammer\js" />
++      <recent name="C:\Users\flopi\IdeaProjects\ClubProgrammer\css" />
++      <recent name="C:\Users\flopi\IdeaProjects\ClubProgrammer" />
++    </key>
++  </component>
++  <component name="RunManager" selected="JavaScript Debug.cheats.html">
++    <configuration name="cheats.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ClubProgrammer/cheats.html" useBuiltInWebServerPort="true">
++      <method v="2" />
++    </configuration>
++    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ClubProgrammer/index.html" useBuiltInWebServerPort="true">
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="JavaScript Debug.cheats.html" />
++        <item itemvalue="JavaScript Debug.index.html" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
++        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
++      </set>
++    </attachedChunks>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="39a2ac15-ce3b-4a09-8f68-52b65a9055e2" name="Changes" comment="" />
++      <created>1721268372441</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1721268372441</updated>
++      <workItem from="1721268372447" duration="3767000" />
++      <workItem from="1721309110536" duration="19489000" />
++      <workItem from="1721491771450" duration="19203000" />
++      <workItem from="1721598583618" duration="4528000" />
++    </task>
++    <task id="LOCAL-00001" summary="Page with BootStrap">
++      <option name="closed" value="true" />
++      <created>1721598777584</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1721598777584</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Page with BootStrap" />
++    <option name="LAST_COMMIT_MESSAGE" value="Page with BootStrap" />
++  </component>
++</project>
+\ No newline at end of file
+Index: cheats.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <link href=\"style.css\" rel=\"stylesheet\">\r\n    <!-- Google Fonts - Kode Mono -->\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap\" rel=\"stylesheet\">\r\n    <!-- Google Fonts - Monofett static -->\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Monofett&display=swap\" rel=\"stylesheet\">\r\n    <!-- Google Fonts - Major Mono Display-->\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap\" rel=\"stylesheet\">\r\n    <!--Bootstrap-->\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">\r\n    <!--Font Awesome -->\r\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">\r\n    <title>Cheats - CPU</title>\r\n</head>\r\n<body>\r\n<header>\r\n    <nav class=\"py-2 \">\r\n        <div class=\"container d-flex flex-wrap\">\r\n            <a href=\"index.html\" class=\"d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none\">\r\n                <img src=\"CPU%20H.gif\" width=\"190\"  alt=\"CPU\">\r\n            </a>\r\n            <ul class=\"nav me-auto\">\r\n                <li class=\"nav-item\"><a href=\"#\" class=\"nav-link px-3 \">¿Quiénes somos?</a></li>\r\n                <li class=\"nav-item\"><a href=\"#\" class=\"nav-link px-3 \">Formulario</a></li>\r\n                <li class=\"nav-item\"><a href=\"#\" class=\"nav-link px-3 \">FAQs</a></li>\r\n                <li class=\"nav-item\"><a href=\"#\" class=\"nav-link px-2 \">Contacto</a></li>\r\n                <li class=\"nav-item\"><a href=\"cheats.html\" class=\"nav-link px-2 \">Cheats</a></li>\r\n            </ul>\r\n        </div>\r\n    </nav>\r\n</header>\r\n<div class=\"container-div\">\r\n    <div class=\"main\">\r\n        <aside class=\"left\">\r\n            <h4>Lista de cursos</h4>\r\n            <div class=\"list\"></div>\r\n        </aside>\r\n        <main>\r\n            <h1>Data que te puede servir</h1>\r\n                <div class=\"dataList\"></div>\r\n        </main>\r\n        <aside class=\"right\">\r\n            <h4>Lista de Lenguajes</h4>\r\n            <h5>Front end</h5>\r\n            <div class=\"langList\"></div>\r\n            <h5>Back end</h5>\r\n            <div class=\"langListB\"></div>\r\n        </aside>\r\n    </div>\r\n</div>\r\n\r\n<footer class=\"d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top\">\r\n    <div class=\"col-md-4 d-flex align-items-center\">\r\n        <a href=\"/\" class=\"mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1\">\r\n            <svg class=\"bi\" width=\"30\" height=\"24\"><use xlink:href=\"#bootstrap\"></use></svg>\r\n        </a>\r\n        <span class=\"mb-3 mb-md-0 text-muted\">© 2024 Club de Programadores</span>\r\n    </div>\r\n    <ul class=\"nav col-md-4 justify-content-end list-unstyled d-flex\" style=\"margin-right: 3em\">\r\n        <li class=\"ms-3\"><a class=\"text-muted\" href=\"#\"><i class=\"fa-brands fa-whatsapp\" style=\"font-size: 2em;\"></i></a></li>\r\n        <li class=\"ms-3\"><a class=\"text-muted\" href=\"#\"><i class=\"fa-brands fa-discord\" style=\"font-size: 2em;\"></i></a></li>\r\n        <li class=\"ms-3\"><a class=\"text-muted\" href=\"#\"><i class=\"fa-brands fa-github\" style=\"font-size: 2em;\"></i></a></li>\r\n    </ul>\r\n</footer>\r\n\r\n<script src=\"index.js\"></script>\r\n<script src=\"cheats.js\"></script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cheats.html b/cheats.html
+--- a/cheats.html	(revision a8ff6c73a7f7e16c94035698180a4ce77b83d548)
++++ b/cheats.html	(date 1721611634593)
+@@ -5,7 +5,7 @@
+     <meta name="viewport"
+           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+-    <link href="style.css" rel="stylesheet">
++    <link href="css/style.css" rel="stylesheet">
+     <!-- Google Fonts - Kode Mono -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+@@ -29,7 +29,7 @@
+     <nav class="py-2 ">
+         <div class="container d-flex flex-wrap">
+             <a href="index.html" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+-                <img src="CPU%20H.gif" width="190"  alt="CPU">
++                <img src="./img/CPU%20H.gif" width="190"  alt="CPU">
+             </a>
+             <ul class="nav me-auto">
+                 <li class="nav-item"><a href="#" class="nav-link px-3 ">¿Quiénes somos?</a></li>
+@@ -75,7 +75,7 @@
+     </ul>
+ </footer>
+ 
+-<script src="index.js"></script>
+-<script src="cheats.js"></script>
++<script src="js/index.js"></script>
++<script src="js/cheats.js"></script>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/index.js b/js/index.js
+rename from index.js
+rename to js/index.js
+diff --git a/cheats.js b/js/cheats.js
+rename from cheats.js
+rename to js/cheats.js
+diff --git a/style.css b/css/style.css
+rename from style.css
+rename to css/style.css
